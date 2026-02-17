@@ -88,3 +88,15 @@ git push
 | 5 | `git remote add origin https://github.com/내아이디/저장소이름.git` → `git push -u origin main` |
 
 여기까지 하면 GitHub에 직접 올린 상태가 됩니다.
+
+---
+
+## 7. 다음에 할 일
+
+| 하고 싶은 것 | 다음 단계 |
+|-------------|-----------|
+| **다른 사람도 웹에서 쓰게 하기** | [배포가이드.md](./배포가이드.md) 참고 → Railway 또는 Render에 연결해 배포. 배포된 URL을 공유하면 됩니다. |
+| **다른 PC에서 이어서 개발** | 그 PC에서 `git clone https://github.com/내아이디/performance-evaluator.git` 후 `npm run build` / `npm run start` (또는 frontend·backend 각각 실행). |
+| **계속 개발하면서 백업** | 수정할 때마다 `git add .` → `git commit -m "설명"` → `git push` 하면 GitHub에 계속 반영됩니다. |
+
+특별히 할 일이 없으면, 그냥 코드 수정할 때마다 **6번**처럼 커밋하고 push 하시면 됩니다.
