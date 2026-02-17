@@ -4,7 +4,6 @@
   "description": "연주 평가기 - 배포용 스크립트",
   "scripts": {
     "build": "cd frontend && npm ci && npm run build && cd ../backend && npm ci",
-    "start": "cd backend && NODE_ENV=production node src/server.js",
-    "postinstall": "cd frontend && npm ci && cd ../backend && npm ci"
+    "start": "cd backend && NODE_ENV=production node src/server.js"
   }
 }
