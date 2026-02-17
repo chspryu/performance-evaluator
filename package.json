@@ -3,7 +3,7 @@
   "private": true,
   "description": "연주 평가기 - 배포용 스크립트",
   "scripts": {
-    "build": "cd frontend && npm ci && npm run build && cd ../backend && npm ci",
+    "build": "cd frontend && npm install && npm run build && cd ../backend && npm install",
     "start": "cd backend && NODE_ENV=production node src/server.js"
   }
 }
